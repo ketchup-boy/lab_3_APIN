@@ -1,3 +1,11 @@
+#' Computes the shortest path from a given node to every other node in a graph with only positive edges
+#' @param graph a graph with only positively weighted edges
+#' @param start_node the node which the shortest path to all the other nodes is computed from
+#' @return It returns a vector with the lengths of the shortest path to all nodes in the graph from start_node. The index indicates which node the path is to
+#' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+
+
 dijkstra <- function(graph, start_node){
   num_of_nodes <- length(unique(graph[,1]))
   distances <- c(rep(100000, num_of_nodes))
@@ -27,9 +35,3 @@ dijkstra <- function(graph, start_node){
   return(res)
 }
 
-wiki_graph <-
-  data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
-             v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
-             w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
-dijkstra(wiki_graph, 1)
-dijkstra(wiki_graph, 3)

@@ -9,18 +9,19 @@
 \packageDescription{lab3}
 }
 \details{
-%%  ~~ An overview of how to use the package, ~~
-%%  ~~ including the most important functions ~~
+Package contains dijkstra and euclidian algorithms
 }
 \author{
-\packageAuthor{lab3}
+%% ~~ Ana Stanojcic & 
+\packageAuthor{Ana Stanojcic, Sofia Danielson}
 
-Maintainer: \packageMaintainer{lab3}
+Maintainer: \packageMaintainer{Ana Stanojcic, Sofia Danielson}
 }
 \references{
-%%  ~~ Literature or other references for background information ~~
+https://en.wikipedia.org/wiki/Euclidean_algorithm
+https://sv.wikipedia.org/wiki/Dijkstras_algoritm
 }
-\keyword{package}
+\keyword{Euclidian, Dijkstra}
 
 %% Uncomment below to imitate parts of library(help = lab3)
 %\section{The \file{DESCRIPTION} File}{\packageDESCRIPTION{lab3}}
