@@ -13,9 +13,9 @@ Package contains dijkstra and euclidian algorithms
 }
 \author{
 %% ~~ Ana Stanojcic & 
-\packageAuthor{Ana Stanojcic, Sofia Danielson}
+\packageAuthor{lab3}
 
-Maintainer: \packageMaintainer{Ana Stanojcic, Sofia Danielson}
+Maintainer: \packageMaintainer{lab3}
 }
 \references{
 https://en.wikipedia.org/wiki/Euclidean_algorithm
