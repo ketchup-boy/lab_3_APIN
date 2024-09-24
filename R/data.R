@@ -13,4 +13,3 @@
 #' @examples
 #' # Load the data
 #' data(wiki_graph)
-"wiki_graph"

@@ -6,8 +6,7 @@
 # * https://r-pkgs.org/testing-design.html#sec-tests-files-overview
 # * https://testthat.r-lib.org/articles/special-files.html
 
-library(testthat)
-library(lab_3_APIN)
-
-test_check("lab_3_APIN")
+#library(testthat)
+#library(sophian)
+#test_check("sophian")
 

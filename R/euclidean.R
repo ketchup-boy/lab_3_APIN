@@ -4,9 +4,6 @@
 #' @param b Numeric value that is smaller than a
 #' @return greatest common divisor of numbers a and b is found
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
-
-
-
 euclidean <- function(a, b) {
   while(b != 0){
     n <- b
@@ -14,6 +11,6 @@ euclidean <- function(a, b) {
     a <- n
   }
   return(a)
-  
+
 }
 
