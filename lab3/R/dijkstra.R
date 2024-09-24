@@ -7,6 +7,7 @@
 
 
 dijkstra <- function(graph, start_node){
+  stopifnot(frame(graph) & )
   num_of_nodes <- length(unique(graph[,1]))
   distances <- c(rep(100000, num_of_nodes))
   parent_node <- c(rep(NA, num_of_nodes))
@@ -31,7 +32,7 @@ dijkstra <- function(graph, start_node){
     } 
     distances[curr_node] <- 10000000
   }
-  res <- data.frame(parent = parent_node, length = end_distances)
+  res <- end_distances
   return(res)
 }
 
