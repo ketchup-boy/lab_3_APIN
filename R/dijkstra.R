@@ -4,8 +4,8 @@
 #' @return It returns a vector with the lengths of the shortest path to all nodes in the graph from start_node. The index indicates which node the path is to
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 dijkstra <- function(graph, start_node){
-  stopifnot(frame(graph) & colnames(graph) == "placeholder")
-  num_of_nodes <- length(unique(graph[,1]))
+  stopifnot(is.data.frame(graph) && identical(colnames(graph), c("v1", "v2", "w")) && ((start_node %in% graph$v1) || (start_node %in% graph$v2)))
+  num_of_nodes <- length(unique(graph$v1))
   distances <- c(rep(100000, num_of_nodes))
   parent_node <- c(rep(NA, num_of_nodes))
   distances[start_node] <- 0
