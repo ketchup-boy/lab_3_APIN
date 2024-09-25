@@ -6,7 +6,7 @@ Date: 2024-09-20
 Author: Ana Stanojcic, Sofia Danielson
 Maintainer: Who to complain to <sofia16@live.se>
 Description: it can perform nice algorithms
-License: What license is it under?
+License: We don't know
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0)
