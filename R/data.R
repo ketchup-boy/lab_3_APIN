@@ -12,4 +12,5 @@
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #' @examples
 #' # Load the data
-#' data(wiki_graph)
+
+ data(wiki_graph)
