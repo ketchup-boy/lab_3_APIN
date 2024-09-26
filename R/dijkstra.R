@@ -32,4 +32,3 @@ dijkstra <- function(graph, start_node){
   res <- end_distances
   return(res)
 }
-
